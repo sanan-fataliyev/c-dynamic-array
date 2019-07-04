@@ -2,7 +2,7 @@
 
 probably there are tons of other implementations which are more efficient and c-*styled.*  i'm not a C geek.
 
-```
+```clang
         //some example usages
 
         List l = list_create();
