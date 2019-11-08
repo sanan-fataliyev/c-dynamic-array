@@ -1,4 +1,4 @@
-## dynamic array (List data structure) in pure C. Similar to C++ Vector<int>
+## dynamic array (List data structure) in pure C. Similar to C++ Vector&lt;int&gt;
 #### Supported operations are:  
 
 - *List list_create()
