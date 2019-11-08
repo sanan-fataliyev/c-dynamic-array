@@ -1,6 +1,15 @@
-## Dynamic Array aka ArrayList aka Vector  data structure in C
+## dynamic array (List data structure) in pure C. Similar to C++ Vector<int>
+#### Supported operations are:  
 
-probably there are tons of other implementations which are more efficient and c-*styled.*  i'm not a C geek.
+- *List list_create()
+- void list_add(List *ptr_l, int item);
+- int list_get(List *ptr_l, int index);
+- void list_insert(List *ptr_l, int item, int index);
+- void list_prepend(List *ptr_l, int item);
+- int list_pop(List *ptr_l);
+- int list_delete(List *ptr_l, int index);
+- int list_remove(List *ptr_l, int item);
+- int list_index_of(List *ptr_l, int item);
 
 ```clang
         //some example usages
