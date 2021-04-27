@@ -11,7 +11,7 @@
 - int list_remove(List *ptr_l, int item);
 - int list_index_of(List *ptr_l, int item);
 
-```clang
+```c
         //some example usages
 
         List l = list_create();
